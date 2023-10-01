@@ -1,0 +1,27 @@
+.upBtn {
+  position: fixed;
+  bottom: -10rem;
+  right: 2rem;
+  background-color: var(--title-color-dark);
+  padding: 10px 10px 4px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s;
+  z-index: 99;
+}
+.upBtn svg {
+  color: #fff;
+  font-size: var(--h3-font);
+}
+.showUpBtn {
+  bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .upBtn {
+    padding: 8px 8px 4px;
+  }
+  .showUpBtn {
+    bottom: 4rem;
+  }
+}

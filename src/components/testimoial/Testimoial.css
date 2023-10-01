@@ -1,0 +1,27 @@
+.testimonial-card {
+  background-color: var(--color-white);
+  padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.testimonial-card img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.testimonial-card-name {
+  font-size: var(--normal-font);
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.testimonial-card p {
+  font-size: var(--small-font);
+}
+.testimonial-swipper {
+  padding-bottom: 3rem;
+}
+.testimonial-swipper .swiper-pagination-bullet-active {
+  background-color: var(--title-color);
+}
