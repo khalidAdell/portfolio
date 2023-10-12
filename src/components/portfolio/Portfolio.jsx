@@ -61,14 +61,16 @@ const Portfolio = () => {
           {filterProjects.map((project) => {
             return (
               <div className="project-card" key={project.name}>
-                <img
-                  src={
-                    project.image
-                      ? project.image
-                      : "https://i.imgur.com/1E09AEA.png"
-                  }
-                  alt=""
-                />
+                <a target="_blank" href={project.link} rel="noreferrer">
+                  <img
+                    src={
+                      project.image
+                        ? project.image
+                        : "https://i.imgur.com/1E09AEA.png"
+                    }
+                    alt=""
+                  />
+                </a>
                 <h4 className="project-card-title">
                   <a target="_blank" href={project.link} rel="noreferrer">
                     {project.name}
