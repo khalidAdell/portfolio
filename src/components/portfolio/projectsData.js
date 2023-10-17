@@ -51,13 +51,4 @@ export default [
     type: "react",
     image: "./images/projects/crypto.PNG",
   },
-  {
-    name: "University Design",
-    description: "university css simple design",
-    technology: ["Html", "Css"],
-    date: "October 19, 2021,",
-    link: "https://khalidadell.github.io/University-design/",
-    type: "css",
-    image: "./images/projects/university.PNG",
-  },
 ];
