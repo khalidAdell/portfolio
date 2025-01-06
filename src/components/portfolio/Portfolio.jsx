@@ -45,6 +45,12 @@ const Portfolio = () => {
             React
           </button>
           <button
+            onClick={() => handleFilterProects("nextjs")}
+            className={`${activeBtn === "nextjs" && "activeBtn"}`}
+          >
+            NextJs
+          </button>
+          <button
             onClick={() => handleFilterProects("js")}
             className={`${activeBtn === "js" && "activeBtn"}`}
           >
@@ -60,8 +66,16 @@ const Portfolio = () => {
         <div className="projects-cards">
           {filterProjects.map((project) => {
             return (
-              <div className="project-card" key={project.name}>
-                <a target="_blank" href={project.link} rel="noreferrer">
+              <div
+                className={`project-card ${project.status ? "loading" : ""}`}
+                key={project.name}
+              >
+                <a
+                  target="_blank"
+                  href={project.link}
+                  rel="noreferrer"
+                  className={`${project.status ? "disabled-link" : ""}`}
+                >
                   <img
                     src={
                       project.image
@@ -72,10 +86,20 @@ const Portfolio = () => {
                   />
                 </a>
                 <h4 className="project-card-title">
-                  <a target="_blank" href={project.link} rel="noreferrer">
+                  <a
+                    target="_blank"
+                    href={project.link}
+                    rel="noreferrer"
+                    className={`${project.status ? "disabled-link" : ""}`}
+                  >
                     {project.name}
                   </a>
                 </h4>
+
+                {project.status && (
+                  <p className="working-text">Work in progress...</p>
+                )}
+
                 <p
                   className="show-info"
                   onClick={() => setActiveModal(project.name)}

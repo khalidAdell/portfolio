@@ -31,10 +31,13 @@ const Home = () => {
         <div className="my-info">
           <h1 className="home-title">Khalid Adel</h1>
           <h3 className="home-subtitle">Frontend | React developer</h3>
-          <p className="home-describtion">
-            I'm creative developer based in Elbehera Egypt, and I'm very
-            passionate to my work
+          <p className="home-description">
+            I'm a passionate Frontend React developer based in Elbehera, Egypt,
+            dedicated to building modern, responsive, and user-friendly web
+            experiences. I thrive on solving problems, refining designs, and
+            bringing ideas to life through clean, efficient code.
           </p>
+
           <a href="#contact" className="home-btn --btn">
             Say Hello
           </a>

@@ -19,12 +19,12 @@ const About = () => {
             <div className="about-card">
               <AiOutlineBulb />
               <h3>Experience</h3>
-              <p>+1 month</p>
+              <p>+1 year</p>
             </div>
             <div className="about-card">
               <AiOutlineProject />
               <h3>Completed</h3>
-              <p>4 + Projects</p>
+              <p>5+ Projects</p>
             </div>
             <div className="about-card">
               <LiaHeadsetSolid />
@@ -37,7 +37,11 @@ const About = () => {
             I don&apos;t have enough experience but I&apos;m very passionate to
             my work and i love to learn.
           </div>
-          <a download="" href="./CV.pdf" className="--btn about-btn">
+          <a
+            download=""
+            href="./KhalidAdeResume.pdf"
+            className="--btn about-btn"
+          >
             Download CV <AiOutlineCloudDownload size={23} />
           </a>
         </div>
