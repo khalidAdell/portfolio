@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <a
             download=""
-            href="./KhalidAdeResume.pdf"
+            href="./KhalidAdelLotfySaadResume.pdf"
             className="--btn about-btn"
           >
             Download CV <AiOutlineCloudDownload size={23} />
