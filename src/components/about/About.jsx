@@ -19,7 +19,7 @@ const About = () => {
             <div className="about-card">
               <AiOutlineBulb />
               <h3>Experience</h3>
-              <p>+1 year</p>
+              <p>+3 year</p>
             </div>
             <div className="about-card">
               <AiOutlineProject />

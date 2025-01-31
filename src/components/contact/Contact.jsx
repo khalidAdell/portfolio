@@ -34,7 +34,7 @@ const Contact = () => {
           <div className="contact-card">
             <BsWhatsapp className="card-icon" />
             <h3 className="contact-card-title">Whatsapp</h3>
-            <p>+20 122-656-4619</p>
+            <p>(+20) 109-583-3067</p>
             <a href="">
               Text me <BsArrowRightShort size={20} />
             </a>
