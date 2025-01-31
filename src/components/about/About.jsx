@@ -33,9 +33,11 @@ const About = () => {
             </div>
           </div>
           <div className="about-describtion">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I don&apos;t have enough experience but I&apos;m very passionate to
-            my work and i love to learn.
+            Front-End Developer with expertise in React, Next.js, and
+            TypeScript. Passionate about building responsive and user-friendly
+            web applications, optimizing performance, and enhancing user
+            experience. Looking to contribute to dynamic projects and grow
+            within a collaborative environment.
           </div>
           <a
             download=""
